@@ -4,7 +4,18 @@ This changelog records changes to stable releases since 1.50.2. "TBA" changes he
 
 ## TBA
 
+- fix: auto attach only to workspace scripts by default ([#856](https://github.com/microsoft/vscode-js-debug/issues/856))
+- fix: do not show restart frame action on async stacktraces ([ref](https://github.com/microsoft/vscode/issues/116345))
+
+## v1.54.1 - 2021-02-04
+
+- fix: wrong command used in create debug terminal command
+
+## v1.54.0 - 2021-02-08
+
 - fix: allow copying values from watch expressions ([ref](https://github.com/microsoft/vscode/issues/115049))
+- fix: reuse debug terminals when running npm scripts, when possible
+- refactor: move script lens functionality into built-in npm extension
 
 ## v1.53.0 - 2021-01-25
 
